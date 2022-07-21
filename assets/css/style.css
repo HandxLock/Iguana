@@ -1,0 +1,140 @@
+@font-face {
+    font-family:raleway ;
+    src: url(../fuentes/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family:raleway2 ;
+    src: url(../fuentes/Raleway-Light.ttf);
+}
+@font-face {
+    font-family:raleway3 ;
+    src: url(../fuentes/Raleway-Medium.ttf);
+}
+.header{
+    height: 800px;
+    background: #000000;
+}
+.header h1{
+    letter-spacing: 0px;
+    padding-top: 9px;
+    font-size: 50px;
+    text-align: center;
+    font-family: raleway;
+    color: white;
+}
+
+.header img{
+    width: 100%;
+    height:727px;
+}
+
+.main{
+    width: 100%;
+    background: #000000;
+    height: 1044px;
+}
+
+.texto p{
+    width: 475px;
+    color: white;
+    font-family:raleway2 ;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.texto{
+    display: inline-block;
+    padding:76px 0px 75px 150px;
+}
+
+
+.texto-imagen img{
+    float: right;
+    width: 399px;
+    height: 237px;
+    padding: 45px 150px 66px 0px;
+}
+
+.caracteristicas{
+    text-align: center;
+    background: #1E1A13;
+    height: 348px;
+    width: 100%;
+    opacity: 0.98;
+}
+.texto-imagen{
+    height: 348px;
+}
+
+.caracteristicas h2{
+    color: white;
+    font-size: 40px;
+    font-family:raleway3;
+    text-align: center;
+    padding: 75px 460.5px 0px 463.5px;
+}
+
+.caracteristicas i{
+    color: white;
+    
+}
+.feature{
+    width: 20%;
+    padding: 1%;
+    display: inline-block;
+}
+.feature i{
+    font-size: 45px;
+    display: block;
+    color: white;
+}
+.feature p{
+    color: white;
+    font-family:raleway2 ;
+    font-size: 25px;
+   padding-top: 16px;
+   width: 256px;
+   text-align: center;
+}
+.caja-feature
+{
+    padding-top: 50px;
+}
+.galeria{
+    display: block;
+
+    width: 100%;
+    height: 348px;
+
+}
+.fotos{
+    display: inline-block;
+    padding: 73px 138px 73px 138px;
+}
+
+.fotos img
+{
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    height: 202px;
+    width: 316px;
+}
+.footer
+{
+    
+    background: #1E1A13;
+    width: 100%;
+    height: 102px;
+    color: white;
+    text-align: center;
+    font-family:raleway2 ;
+}
+.footer p{
+    font-size: 20px;
+    display: inline-block;
+    padding: 39px 299px 39px 299px;
+}
+
+
